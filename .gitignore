@@ -1,0 +1,7 @@
+# raw downloads; the site uses assets/img/w and the two logos
+assets/img/*
+!assets/img/w/
+!assets/img/logo-dark.png
+!assets/img/logo-light.png
+.DS_Store
+.claude/

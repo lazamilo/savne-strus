@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rezerviraj posvet | Savne Štrus</title>
+<meta name="description" content="Savne po meri: finske, bio, infra solne, hibridne in zunanje savne. Izdelane v Šmartnem pri Litiji od leta 2012.">
+<meta name="robots" content="noindex">
+<link rel="preload" href="assets/fonts/MaisonNeue-Medium.otf" as="font" type="font/otf" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="posvet" data-inv="1">
+
+<section class="on-dark wrap" id="posvet" style="padding-top:calc(var(--nav-h) + clamp(60px,8vw,140px));padding-bottom:clamp(96px,12vw,200px)">
+  <div class="book">
+    <div>
+      <h1 class="d1" data-hero-title>Stopimo v kontakt.</h1>
+      <p class="lead" data-up style="margin-top:24px">Za individualni posvet s svetovalcem si rezervirajte termin. Na podlagi vaših podatkov vam najbolje svetujemo in pripravimo ponudbo.</p>
+      <div class="book-info" data-stag>
+        <div><span>Telefon</span><b><a href="tel:+38659340401">059 340 401</a></b></div>
+        <div><span>E-pošta</span><b><a href="mailto:prodaja@savne-strus.si">prodaja@savne-strus.si</a></b></div>
+        <div><span>Razstavni salon, pon–pet 8.00–16.00</span><b>Usnjarska cesta 16c, Šmartno pri Litiji</b></div>
+      </div>
+    </div>
+    <form class="f" data-up>
+      <div class="full"><label>Kaj vas zanima?</label>
+        <div class="chips">
+          <label><input type="checkbox" name="tip" value="finska"><span>Finska / bio</span></label>
+          <label><input type="checkbox" name="tip" value="infra"><span>Infra / solna</span></label>
+          <label><input type="checkbox" name="tip" value="hibridna"><span>Hibridna</span></label>
+          <label><input type="checkbox" name="tip" value="zunanja"><span>Zunanja</span></label>
+        </div></div>
+      <div><label for="ime">Ime in priimek</label><input id="ime" required autocomplete="name"></div>
+      <div><label for="tel">Telefon</label><input id="tel" type="tel" autocomplete="tel"></div>
+      <div class="full"><label for="mail">E-pošta</label><input id="mail" type="email" required autocomplete="email"></div>
+      <div class="full"><label for="obl">Kje bo savna?</label><select id="obl"><option>Kopalnica</option><option>Wellness prostor</option><option>Mansarda ali poševnina</option><option>Vrt ali terasa</option><option>Še ne vem</option></select></div>
+      <div class="full"><label for="msg">Vaše želje</label><textarea id="msg" placeholder="Velikost prostora, število oseb, želena kolekcija..."></textarea></div>
+      <div class="full"><button class="btn light" type="submit">Pošlji povpraševanje <span class="arr">→</span></button></div>
+      <div class="ok">Hvala! Kmalu se vam oglasimo.</div>
+    </form>
+  </div>
+</section>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
